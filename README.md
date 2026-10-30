@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📖 LLM Novel Localizer
+# 📖 Dịch Truyện Với AI (LLM Novel Localizer)
 
 **A production-grade, fault-tolerant localization pipeline for long-context web novels and light novels using Modern LLMs.**
 
@@ -72,8 +72,8 @@ flowchart TD
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/llm-novel-localizer.git
-cd llm-novel-localizer
+git clone https://github.com/N4NH/DichTruyenVoiAI.git
+cd DichTruyenVoiAI
 pip install -r requirements.txt
 ```
 
