@@ -1,0 +1,22 @@
+[CHARACTERS]
+Rimuru = Rimuru # Nhân vật chính Slime
+Veldora = Veldora # Bạo Phong Long
+Shizu = Shizu # Người mang mặt nạ
+
+[LOCATIONS]
+Jura Forest = Đại Sâm Lâm Jura
+Tempest = Tempest # Vương quốc ma vật
+
+[ORGANIZATIONS]
+Freedom Guild = Hiệp Hội Tự Do
+
+[HONORIFICS]
+-san = -san
+-sama = -sama
+
+[FANTASY TERMS]
+Magicule = Ma tố
+Skill = Kỹ năng
+
+[OTHER]
+

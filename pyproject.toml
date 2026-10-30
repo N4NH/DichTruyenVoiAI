@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-novel-localizer"
+version = "0.1.0"
+description = "A production-grade, fault-tolerant LLM pipeline for long-context novel localization and terminology synchronization."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["llm", "translation", "localization", "nlp", "gemini", "openai", "glossary", "novel"]
+dependencies = [
+    "google-genai>=1.0.0",
+    "requests>=2.31.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.0.0",
+    "typer[all]>=0.9.0",
+    "rich>=13.0.0",
+    "EbookLib>=0.18",
+    "beautifulsoup4>=4.12.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "ruff>=0.3.0"
+]
+
+[project.scripts]
+novel-localizer = "src.cli:app"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+

@@ -1,0 +1,8 @@
+[CHARACTERS]
+Kirito = Kirito # Nhân vật chính, Hắc Kiếm Sĩ
+Asuna = Asuna # Đội phó Huyết Minh Kỵ Sĩ Đoàn
+
+[LOCATIONS]
+Aincrad = Aincrad # Tòa thành bay 100 tầng
+Great Plains = Đại Bình Nguyên
+

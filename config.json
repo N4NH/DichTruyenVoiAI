@@ -1,0 +1,37 @@
+{
+  "selected_provider": "Gemini",
+  "chunk_threshold": 5000,
+  "target_chunk_size": 2500,
+  "max_retries": 3,
+  "source_language": "auto",
+  "target_language": "Vietnamese",
+  "providers": {
+    "Gemini": {
+      "selected_model": "gemini-3.5-flash",
+      "api_keys": [],
+      "base_url": null
+    },
+    "OpenAI": {
+      "selected_model": "gpt-4o-mini",
+      "api_keys": [],
+      "base_url": null
+    },
+    "OpenRouter": {
+      "selected_model": "deepseek/deepseek-chat",
+      "api_keys": [],
+      "base_url": "https://openrouter.ai/api/v1/chat/completions"
+    },
+    "Groq": {
+      "selected_model": "llama-3.3-70b-versatile",
+      "api_keys": [],
+      "base_url": "https://api.groq.com/openai/v1/chat/completions"
+    },
+    "Ollama": {
+      "selected_model": "qwen2.5:14b",
+      "api_keys": [
+        "ollama-local"
+      ],
+      "base_url": "http://localhost:11434/v1/chat/completions"
+    }
+  }
+}
